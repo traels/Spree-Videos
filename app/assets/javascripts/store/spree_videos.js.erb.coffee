@@ -39,12 +39,17 @@ class VideoManager
 		w = (h - yt) * 16/9 if !w
 		h = Math.round(w * (9/16) + yt) if !h
 		
-		{ width:w, height:h }
+		{ width:240, height:240 }
 
 $ ->
+  $("a[rel^='prettyPhoto']").prettyPhoto({
+    show_title: false
+    social_tools: ''
+    theme: 'dark_rounded'
+  })
 	# TODO should create multiple VideoManagers based on class name instead
-	vm = new VideoManager("#video-player")
+	#vm = new VideoManager("#main-image")
 	
 	# TODO should not be based on a single ID
-	$('#video-thumbnails a').click (evn) ->
-		vm.switchVideo($(this).data('video-id'))
+	#$('#product-thumbnails a.youtube').click (evn) ->
+	#	vm.switchVideo($(this).data('video-id'))

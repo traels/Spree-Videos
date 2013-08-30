@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 1.1'
+  s.add_dependency 'spree_core', '~> 2.0'
   s.add_dependency 'youtube_it', '~> 2.3.2'
 
   # test suite
