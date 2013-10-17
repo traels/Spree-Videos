@@ -10,4 +10,4 @@ group :test do
   gem 'coffee-rails'
 end
 
-gem 'spree', '~> 1.3'
+#gem 'spree', '~> 1.3'
