@@ -15,7 +15,6 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'spree_core', '~> 2.0'
-  s.add_dependency 'nokigiri', '~> 1.6'
   s.add_dependency 'youtube_it', '~> 2.3.2'
 
   # test suite
