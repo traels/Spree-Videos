@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Spree::Video do
-  before { @video = FactoryGirl.create(:video) }
+  before { @video = create(:video) }
   let(:video) { @video }
 
   it "should handle different youtube strings" do
