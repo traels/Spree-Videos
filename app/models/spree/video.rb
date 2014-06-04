@@ -9,7 +9,7 @@ module Spree
     def youtube_data
       YouTubeIt::Client.new.video_by(youtube_ref)
     end
-  
+
     after_validation do
       youtube_ref.match(/(v=|\/)([\w-]+)(&.+)?$/) { |m| self.youtube_ref = m[2] }
     end

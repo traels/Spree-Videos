@@ -30,7 +30,7 @@ describe 'video display' do
     v.save!
 
     v = product.videos.build
-    v.youtube_ref = '1bmQS_DGe8M'
+    v.youtube_ref = 'hntXAO_Rq7c'
     v.save!
 
     visit spree.product_path(product)

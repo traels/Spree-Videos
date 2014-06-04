@@ -11,10 +11,10 @@ describe 'admin functionality', js: false do
 
   it "should properly add a video to a product" do
     visit spree.new_admin_product_video_path(product)
-    fill_in 'video_youtube_ref', :with => '0IJoKuTlvuM'
+    fill_in 'video_youtube_ref', :with => 'hntXAO_Rq7c'
     click_button 'Update'
 
     page.should have_text('Video has been successfully created!')
-    page.should have_text('0IJoKuTlvuM')
+    page.should have_text('hntXAO_Rq7c')
   end
 end

@@ -1,23 +1,38 @@
 {
   "RSpec": {
     "coverage": {
-      "/vagrant/test/Spree-Videos/spec/dummy/config/environment.rb": [
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/application.rb": [
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/application.rb": [
         1,
         null,
         1,
         null,
         1,
         null,
+        null,
         1,
         1,
+        null,
+        null,
+        null,
+        null,
         1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
         1,
         null,
         1,
@@ -51,7 +66,7 @@
         null,
         null
       ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/boot.rb": [
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/boot.rb": [
         1,
         1,
         null,
@@ -59,7 +74,7 @@
         1,
         1
       ],
-      "/vagrant/test/Spree-Videos/lib/spree_videos.rb": [
+      "/vagrant/Ruby2/Spree-Videos/lib/spree_videos.rb": [
         1,
         1,
         1,
@@ -82,7 +97,7 @@
         null,
         null
       ],
-      "/vagrant/test/Spree-Videos/lib/spree/videos/configuration.rb": [
+      "/vagrant/Ruby2/Spree-Videos/lib/spree/videos/configuration.rb": [
         1,
         1,
         1,
@@ -111,131 +126,6 @@
         null,
         1,
         1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/environments/test.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/app/controllers/application_controller.rb": [
-        1,
-        null,
-        null,
-        1,
-        null
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/app/helpers/application_helper.rb": [
-        1,
-        null
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/initializers/backtrace_silencers.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/initializers/custom_user.rb": [
-        null
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/initializers/filter_parameter_logging.rb": [
-        null,
-        null,
-        null,
-        1
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/initializers/inflections.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/initializers/mime_types.rb": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/initializers/secret_token.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/initializers/session_store.rb": [
-        null,
-        null,
-        1
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/initializers/spree.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         1,
         null,
         null,
@@ -244,7 +134,132 @@
         null,
         1
       ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/initializers/spree_videos.rb": [
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/environments/test.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/initializers/backtrace_silencers.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/initializers/custom_user.rb": [
+        null
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/initializers/inflections.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/initializers/mime_types.rb": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/initializers/secret_token.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/initializers/session_store.rb": [
+        null,
+        null,
+        1
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/initializers/spree.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/initializers/spree_videos.rb": [
         null,
         null,
         null,
@@ -263,7 +278,7 @@
         null,
         null
       ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/initializers/wrap_parameters.rb": [
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -279,42 +294,14 @@
         null,
         null
       ],
-      "/vagrant/test/Spree-Videos/app/overrides/add_video_admin.rb": [
+      "/vagrant/Ruby2/Spree-Videos/app/overrides/add_video_admin.rb": [
         1,
         null,
         null,
         null,
         null
       ],
-      "/vagrant/test/Spree-Videos/app/overrides/add_videos_product.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/vagrant/test/Spree-Videos/app/models/spree/product_decorator.rb": [
-        1,
-        1,
-        null
-      ],
-      "/vagrant/test/Spree-Videos/spec/dummy/config/routes.rb": [
-        1,
-        1,
-        null
-      ],
-      "/vagrant/test/Spree-Videos/config/routes.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
+      "/vagrant/Ruby2/Spree-Videos/app/overrides/add_videos_product.rb": [
         1,
         null,
         null,
@@ -322,7 +309,35 @@
         null,
         null
       ],
-      "/vagrant/test/Spree-Videos/lib/spree_videos/factories.rb": [
+      "/vagrant/Ruby2/Spree-Videos/app/models/spree/product_decorator.rb": [
+        1,
+        1,
+        null
+      ],
+      "/vagrant/Ruby2/Spree-Videos/spec/dummy/config/routes.rb": [
+        1,
+        1,
+        null
+      ],
+      "/vagrant/Ruby2/Spree-Videos/config/routes.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/Ruby2/Spree-Videos/lib/spree_videos/factories.rb": [
         1,
         1,
         1,
@@ -330,7 +345,7 @@
         null,
         null
       ],
-      "/vagrant/test/Spree-Videos/app/models/spree/video.rb": [
+      "/vagrant/Ruby2/Spree-Videos/app/models/spree/video.rb": [
         1,
         1,
         1,
@@ -349,7 +364,7 @@
         null,
         null
       ],
-      "/vagrant/test/Spree-Videos/spec/features/video_spec.rb": [
+      "/vagrant/Ruby2/Spree-Videos/spec/features/video_spec.rb": [
         1,
         null,
         1,
@@ -391,7 +406,7 @@
         null,
         null
       ],
-      "/vagrant/test/Spree-Videos/spec/models/video_spec.rb": [
+      "/vagrant/Ruby2/Spree-Videos/spec/models/video_spec.rb": [
         1,
         null,
         1,
@@ -421,7 +436,7 @@
         null,
         null
       ],
-      "/vagrant/test/Spree-Videos/app/controllers/spree/admin/videos_controller.rb": [
+      "/vagrant/Ruby2/Spree-Videos/app/controllers/spree/admin/videos_controller.rb": [
         1,
         1,
         1,
@@ -457,6 +472,6 @@
         null
       ]
     },
-    "timestamp": 1386851307
+    "timestamp": 1401884469
   }
 }
