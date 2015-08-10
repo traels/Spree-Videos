@@ -1,7 +1,7 @@
 <% if @product.videos.size > 0 %>
-<% @product.videos.map(&:youtube_data).each do |video| %>
+<% @product.videos.each do |video| %>
   <li class='tmb-all tmb-<%= @product.id %>'>
-  <%= link_to "#{image_tag(video.thumbnails.first.url)}<span></span>".html_safe, video.thumbnails.second.url, :title => video.title, "data-video-id" => video.unique_id, :class => 'youtube', :rel => 'prettyPhoto' %>
+  <%= link_to image_tag("http://img.youtube.com/vi/#{video.youtube_ref}/hqdefault.jpg"), "https://www.youtube.com/watch?v=_TWbD3MKfMI", :title => 'Youtube video', "data-video-id" => video.youtube_ref, :class => 'youtube', :rel => 'prettyPhoto' %>
   
   </li>
 <% end %>
